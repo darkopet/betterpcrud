@@ -23,7 +23,7 @@ $products = $statement->fetchAll(PDO::FETCH_ASSOC);
 
     <?php include_once '../../views/partials/header.php'; ?>
 
-    <h1>Smartphones CRUD</h1>
+    <h1>Smartphones Better CRUD</h1>
 
     <p>
         <a href="create.php" class="btn btn-success">Create New Product</a>
@@ -54,7 +54,7 @@ $products = $statement->fetchAll(PDO::FETCH_ASSOC);
             <?php foreach ($products as $i => $product): ?>
                 <tr>
                     <th scope="row"><?php echo $i+1 ?></th>
-                    <td><img src="/<?php echo $product['image'] ?>" class="thumb-image"> </td>
+                    <td><img src="/public/<?php echo $product['image'] ?>" class="thumb-image"> </td>
                     <td><?php echo $product['title'] ?></td>
                     <td><?php echo $product['description'] ?></td>
                     <td><?php echo $product['price'] ?></td>

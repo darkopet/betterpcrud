@@ -1,5 +1,6 @@
 <?php
-    function randomString($n) {
+    function randomString($n) 
+    {
         $characters = '0123456789abcdefghijklmnopqrstuwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
         $str = '';
 

@@ -43,11 +43,9 @@ $description = $product['description'];
 
 ?>
     <?php include_once '../../views/partials/header.php'; ?>
-
     <p><a href="index.php" class="btn btn-secondary">Go Back To Products</a></p>
 
     <h1>Update Product <b><?php echo $product['title']; ?></b></h1>   
 
     <?php include_once '../../views/products/form.php' ?>
-
     <?php include_once '../../views/partials/footer.php' ?>

@@ -1,5 +1,4 @@
 <?php 
-
     $title = $_POST['title'];
     $description = $_POST['description'];
     $price = $_POST['price'];

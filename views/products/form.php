@@ -1,4 +1,3 @@
-
   <?php if(!empty($errors)): ?>
       <div class="alert alert-danger"> 
         <?php foreach($errors as $error) : ?>
@@ -6,7 +5,6 @@
         <?php endforeach; ?>  
       </div>
   <?php endif; ?>
-
 
   <form action="" method="post" enctype="multipart/form-data">
 

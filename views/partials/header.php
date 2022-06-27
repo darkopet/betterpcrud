@@ -15,7 +15,7 @@
     <link rel="stylesheet" 
           href="app.css">
 
-    <title>CRUD System - Smartphones</title>
+    <title>Smartphones Better CRUD</title>
   </head>
 
   <body>
